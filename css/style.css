@@ -458,6 +458,28 @@ h1 {
   min-height: 392px;
 }
 
+.class9-articles h2 {
+  font-size: 32px;
+  line-height: 38px;
+  color: #403E3B;
+  margin-bottom: 14px;
+}
+
+.class9-articles p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #645C55;
+}
+
+.class9-button {
+  background-color: white;
+  border: 0;
+  font-size: 16px;
+  color: #1B1A1A;
+  margin-top: 41px;
+  margin-left: 20px;
+}
+
 .class9-team {
   display: flex;
   flex-direction: column;
@@ -522,3 +544,48 @@ h1 {
 }
 
 /* ---------------------- Footer --------------------------- */
+footer {
+  display: flex;
+}
+
+.footer-left {
+  width: 50%;
+}
+
+.footer-left h2 {
+  font-size: 32px;
+  font-weight: 400;
+  padding-left: 136px;
+  padding-top: 62px;
+  color: #1B1A1A;
+}
+
+.footer-left span {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1B1A1A;
+}
+
+.footer-left p {
+  padding-left: 136px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #645C55;
+}
+
+.footer-right {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: end;
+  padding-right: 136px;
+}
+
+.footer-right img {
+  width: 24px;
+  height: 25px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
