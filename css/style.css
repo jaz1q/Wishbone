@@ -30,6 +30,7 @@ header {
 
 .left-header {
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
   align-items: center;
   justify-content: flex-start;
@@ -50,6 +51,29 @@ header {
   justify-content: flex-start;
   width: auto;
   gap: 2em;
+}
+
+.left-header div a {
+  display: block;
+  padding: 1em;
+  color:#fff;
+  text-decoration: none;
+}
+
+.bar-d>a:hover {
+  background-color: #cececd;
+}
+
+
+.left-header>div {
+  display: none;
+} 
+
+.left-header:hover .bar-d {
+  display: block;
+  margin-top: 1.5em;
+  background-color: #645C55;
+  position: absolute;
 }
 
 .right-header a {
